@@ -10,7 +10,7 @@ This repository will be updated throughout my internship this summer. I will be 
 
 - [Highlights](#highlights)
 - [Goals](#goals)
-- [Udemy Courses](#udemy_courses)
+- [Udemy Courses](#udemy courses)
 * **Internal Training**
 * **Weekly Summary**
 
@@ -23,7 +23,7 @@ Lorem ipsum
 Lorem ipsum
 
 
-## Udemy Courses
+## Udemy Courses<a name="udemy courses></a>
 Lorem ipsum
 
 
