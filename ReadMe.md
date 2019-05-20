@@ -33,8 +33,8 @@ Lorem ipsum
 ## Weekly Summary
 Lorem ipsum
 
+[create an anchor](#anchors-in-markdown)
 
-(#anchors-in-markdown)
-[create an anchor]
+
 
 
