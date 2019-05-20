@@ -24,7 +24,6 @@ Lorem ipsum
 
 
 ## Udemy Courses
-(#udemy_courses)
 Lorem ipsum
 
 
