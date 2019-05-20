@@ -10,7 +10,7 @@ This repository will be updated throughout my internship this summer. I will be 
 
 - [Highlights](#highlights)
 - [Goals](#goals)
-- [Udemy Courses](#udemy courses)
+- [Udemy Courses](#udemy_courses)
 * **Internal Training**
 * **Weekly Summary**
 
