@@ -8,11 +8,9 @@ This repository will be updated throughout my internship this summer. I will be 
 
 ## Contents
 
--   [Features](#features)
-
 - [Highlights](#highlights)
-* **Goals**
-* **Udemy Courses**
+- [Goals](#goals)
+- [Udemy Courses](#udemy courses)
 * **Internal Training**
 * **Weekly Summary**
 
@@ -34,10 +32,5 @@ Lorem ipsum
 
 ## Weekly Summary
 Lorem ipsum
-
-
-## Features
-
--   Insert formatted references on the fly using **PMID**, **PMCID**, **DOI** (CrossRef, DataCite, & mEDRA), **URL**, or 
 
 
