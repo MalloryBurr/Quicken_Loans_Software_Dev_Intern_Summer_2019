@@ -10,14 +10,14 @@ This repository will be updated throughout my internship this summer. I will be 
 
 -   [Features](#features)
 
-- [Major Highlights](#major_highlights)
+- [Highlights](#highlights)
 * **Goals**
 * **Udemy Courses**
 * **Internal Training**
 * **Weekly Summary**
 
 
-## Major Highlights
+## Highlights
 Lorem ipsum
 
 
