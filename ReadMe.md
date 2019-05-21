@@ -28,5 +28,5 @@ Lorem ipsum
 Lorem ipsum
 
 ## <a name="summary"></a>Weekly Summary
+### Week 1
 Lorem ipsum
-
