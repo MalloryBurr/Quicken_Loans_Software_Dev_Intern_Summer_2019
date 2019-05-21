@@ -13,6 +13,7 @@ This repository will be updated throughout my internship this summer. I will be 
 - [Udemy Courses](#udemy courses)
 * **Internal Training**
 * **Weekly Summary**
+* [Quick Start](#quick-start)
 
 
 ## Highlights
@@ -34,3 +35,4 @@ Lorem ipsum
 Lorem ipsum
 
 
+## <a name="quick-start"></a>Quick Start
