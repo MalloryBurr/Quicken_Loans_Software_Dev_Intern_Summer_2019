@@ -11,8 +11,8 @@ This repository will be updated throughout my internship this summer. I will be 
 - [Highlights](#highlights)
 - [Goals](#goals)
 - [Udemy Courses](#udemy-courses)
-* **Internal Training**
-* **Weekly Summary**
+- [Internal Training](#training)
+- [Weekly Summary](#summary)
 - [Quick Start](#quick-start)
 
 
@@ -24,14 +24,14 @@ Lorem ipsum
 Lorem ipsum
 
 
-## <a name="udemy-courses></a>Udemy Courses
+## <a name="udemy-courses"></a>Udemy Courses
 Lorem ipsum
 
 
-## Internal Training
+## <a name="training"></a>Internal Training
 Lorem ipsum
 
-## Weekly Summary
+## <a name="summary"></a>Weekly Summary
 Lorem ipsum
 
 
