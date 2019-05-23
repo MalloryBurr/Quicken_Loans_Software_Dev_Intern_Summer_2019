@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 interface ICalcOutputProps {
-    calc: number;
+    calc: string;
 }
 
 const CalcOutput = (props: ICalcOutputProps) => {
