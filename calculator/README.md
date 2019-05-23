@@ -1,3 +1,6 @@
+# Calculator App
+This app was made using ReactJS with a package created using NPM, in Visual Studio Code for iOS.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
