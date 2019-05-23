@@ -18,6 +18,7 @@ class App extends React.Component <{}, IAppState> {
         <CalcOutput calc={this.state.result} />
         <button onClick={this.oneHandler}>1</button>
         <button onClick={this.addHandler}>add</button>
+        
       </div>
     );  
   }
