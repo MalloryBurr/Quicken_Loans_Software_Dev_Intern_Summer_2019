@@ -9,19 +9,23 @@ interface IAppState {
   num2: number;
   action: string;
   result: number;
+  display: string;
   count: number;
 }
 
+
+
 class App extends React.Component <{}, IAppState> {
-  public state = {num1: 0, num2: 0, result: 0, count: 1, action: ""}
+  public state = {num1: 0, num2: 0, result: 0, count: 1, action: "", display: ""}
+
+  
 
   public render() {
     
     return (
       <div id = "calc">
         <p id="display">
-          {this.state.num1} {this.state.action} {this.state.num2}<br/>
-          {this.state.result}
+          {this.state.display}<br/>
         </p>
       
         
@@ -45,7 +49,8 @@ class App extends React.Component <{}, IAppState> {
           <button onClick={this.actHandler} id="*">*</button>
           <button onClick={this.actHandler} id="/">/</button><br/>
         </div>
-
+      
+        <button onClick={this.clrHandler} id="res">Clear</button>
         <button onClick={this.resHandler} id="res">=</button>
         
       </div>
@@ -58,13 +63,15 @@ class App extends React.Component <{}, IAppState> {
     {
       this.setState ({
         num1: parseInt(event.target.id, 0),
-        count: 2
+        display: event.target.id + " ",
+        count: 2,
       });
     }
 
     else{
       this.setState ({
         num2: parseInt(event.target.id, 0),
+        display: " " + this.state.display + " " + event.target.id + " ", 
         count: 1,
       });
     } 
@@ -72,28 +79,35 @@ class App extends React.Component <{}, IAppState> {
 
   public actHandler = (event: any) => { 
     this.setState( {
-      action: event.target.id
+      action: event.target.id,
+      display: this.state.display + event.target.id,
     } );
   };
 
   public resHandler = () => { 
     switch(this.state.action) {
       case "+":
-        this.setState( { result: this.state.num1 + this.state.num2 });
+        this.setState( { display: this.state.display + " = " +(this.state.num1 + this.state.num2) });
         break;
 
       case "-":
-        this.setState( { result: this.state.num1 - this.state.num2 });
+      this.setState( { display: this.state.display + " = " +(this.state.num1 - this.state.num2) });
         break;
 
       case "*":
-        this.setState( { result: this.state.num1 * this.state.num2 });
+      this.setState( { display: this.state.display + " = " +(this.state.num1 * this.state.num2) });
         break;
 
       case "/":
-        this.setState( { result: this.state.num1 / this.state.num2 });
+      this.setState( { display: this.state.display + " = " +(this.state.num1 / this.state.num2) });
         break;
     }
+  };
+
+  public clrHandler = () => {
+    this.setState ({
+      display: " ",
+    });
   };
 }
 
